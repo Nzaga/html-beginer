@@ -16,4 +16,7 @@ h1 {
 
 h2 {
 	border-style: dashed;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: #629791;
 }
