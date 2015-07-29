@@ -8,5 +8,8 @@ h1 {
 	font-weight: bolder;
 	text-decoration: underline;
 	text-transform: uppercase;
+	font-size: 2em;
+	margin: 20px;
+	padding: 20px;
 	
 }
