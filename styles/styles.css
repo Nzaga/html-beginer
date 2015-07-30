@@ -1,8 +1,22 @@
 body {
 	background-color: #dcedc8;
+	font-family: arial, helvetica , serif;
 }
 
 h1 {
 	color: #212121;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin: 20px;
+	padding: 20px;
 	
+}
+
+h2 {
+	border-style: dashed;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: #629791;
 }
