@@ -24,3 +24,7 @@ h2 {
 .reasons {
 	background-color: white;
 }
+
+.colTable {
+	border-width: 2px;
+}

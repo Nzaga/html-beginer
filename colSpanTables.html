@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="This is my table, table">
 	<title>Tables with spanning columns</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
 	<table class="colTable">
@@ -11,6 +12,22 @@
 			<th>Column1 heading</th>
 			<th>Column2 heading</th>
 			<th>Column3 heading</th>
+		</tr>
+
+		<tr>
+			<td>Row 2, Column1</td>
+			<td colspan="2">Row 2, Column2 also span Row 2 Column 3</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Row 3, Column1, <br> also span Row 4 Column 1</td>
+			<td>Row 3, Column 2</td>
+			<td>Row 3, Column 3</td>
+		</tr>
+
+		<tr>
+			<td>Row 4, Column 2</td>
+			<td>Row 4, Column 3</td>
 		</tr>
 	</table>
 </body>
