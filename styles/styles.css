@@ -28,3 +28,7 @@ h2 {
 .colTable {
 	border-width: 2px;
 }
+
+.middleColumn {
+	background-color: white;
+}
