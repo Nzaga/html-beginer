@@ -61,15 +61,15 @@
 				<legend>Name</legend>
 				
 				<label for="firstName">First Name : </label>
-				<input name="firstName" id="firstName">
+				<input name="firstName" type="text" id="firstName">
 				<br><br>
 
 				<label for="middleName">Middle Name : </label>
-				<input name="middleName" id="middleName">
+				<input name="middleName" type="text" id="middleName">
 				<br><br>
 
 				<label for="lastName">Last Name : </label>
-				<input name="lastName" id="lastName">
+				<input name="lastName" type="text" id="lastName">
 				<br><br>
 			</fieldset>
 
@@ -77,15 +77,50 @@
 				<legend>Contacts</legend>
 
 				<label for="email">Email : </label>
-				<input name="email" id="email">
+				<input name="email" type="email" id="email">
 				<br><br>
 
 				<label for="phoneNumber"> Phone Number : </label>
-				<input name="phone" id="phone">
+				<input name="phone" type="tel" id="phone">
 				<br><br>
+
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Product details</legend>
+
+				<label for="quantity">Quantity : </label>
+				<input name="quantity" type="number" step ="2" max="10" min="0">
+
+				<label for="slider">Silder </label>
+				<input name="slider" type="range" min="0" max="10" step="0.5" value="1">
+
+				<label for="date">Date</label>
+				<input name="date" type="datetime">
 			</fieldset>
 			
 		</form>
+
+
+	<select name="country">
+	    <optgroup label="Africa">
+	        <option value="gam">Gambia</option>
+	        <option value="mad">Madagascar</option>
+	        <option value="nam">Namibia</option>
+	    </optgroup>
+	    <optgroup label="Europe">
+	        <option value="fra">France</option>
+	        <option value="rus">Russia</option>
+	        <option value="uk">UK</option>
+	    </optgroup>
+	    <optgroup label="North America">
+	        <option value="can">Canada</option>
+	        <option value="mex">Mexico</option>
+	        <option value="usa">USA</option>
+	    </optgroup>
+	</select>
+
 	<footer>This is the page footer</footer>
 </body>
 </html>
