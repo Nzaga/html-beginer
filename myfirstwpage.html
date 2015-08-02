@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>My first Page</title>
+	<meta charset ="utf-8" >
+	<meta name="discription" content="this is my really, really, REALLY exciting website" >
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	
 </head>
@@ -17,13 +19,14 @@
 	<p>A simple page put together using HTML</p>
 
 	<h2>Why this is</h2>
-	<p style="color : red">Unordered list of reasons</p>
-		<ul>
-			<li>To Learn html</li>
-			<li>To show off</li>
-			<li>Because I've fallen in love with my computer and want to give her some HTML loving.</li>
-		</ul>
-
+	<div class="reasons">
+		<p style="color : red">Unordered list of reasons</p>
+			<ul>
+				<li>To Learn <abbr title="Hyper Text Markup Language">html</abbr> </li>
+				<li>To show off</li>
+				<li>Because I've fallen in love with my computer and want to give her some HTML loving.</li>
+			</ul>
+	</div>
 	<p>Ordered list of reasons</p>
 		<ol>
 			<li>To Leard html</li>
@@ -51,8 +54,18 @@
 	<p>Next page : <a href="ideas.html">Ideas</a></p>
 	<p> <a href="#top">Go top of page</a></p>
 		
+	<p>So I asked ben about the project and he said <q>It is going to end soon</q>.  </p>
 
+	<blockquote cite="http://www.htmldog.com/guides/html/intermediate/text/">
+    	<p>blockquote and q are used for quotations. blockquote is generally used for standalone often multi-line quotations 	whereas q is used for shorter, in-line quotations.
+    	</p>
+	</blockquote>
 
+	<p>According to 
+		<cite>the Bible</cite>, 
+		after six days God said 
+		<q>screw this for a lark, I'm having a nap</q>.
+	</p>
 
 
 </body>
