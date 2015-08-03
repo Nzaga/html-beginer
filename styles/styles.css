@@ -40,3 +40,7 @@ input[type=email]:valid{
 input[type=email]:invalid{
 	background: red;
 }
+
+.main_navigation{
+	list-style-type: none;
+}
