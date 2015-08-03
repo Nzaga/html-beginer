@@ -44,3 +44,7 @@ input[type=email]:invalid{
 .main_navigation{
 	list-style-type: none;
 }
+
+.main_nav_link{
+	display: inline;
+}
