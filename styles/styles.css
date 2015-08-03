@@ -48,3 +48,21 @@ input[type=email]:invalid{
 .main_nav_link{
 	display: inline;
 }
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color : purple;
+}
+
+a:active {
+	color: red;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: yellow;
+	color: red;
+}
