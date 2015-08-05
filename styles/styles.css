@@ -1,6 +1,9 @@
 body {
 	background-color: #dcedc8;
 	font-family: arial, helvetica , serif;
+	background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+
+
 }
 
 h1 {
@@ -39,4 +42,35 @@ input[type=email]:valid{
 
 input[type=email]:invalid{
 	background: red;
+}
+
+.main_navigation{
+	list-style-type: none;
+}
+
+.main_nav_link{
+	display: inline;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color : purple;
+}
+
+a:active {
+	color: red;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: yellow;
+	color: red;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0px;
 }
