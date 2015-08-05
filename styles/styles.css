@@ -74,3 +74,13 @@ a:hover {
 	position: absolute;
 	bottom: 0px;
 }
+
+header h1{
+	text-shadow :0px 2px 2px #999;
+}
+
+#headerImage{
+	box-shadow: 5px 5px 3px #999;
+
+}
+
